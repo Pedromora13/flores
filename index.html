@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/flowers.png" type="image/x-icon">
+    <title>Flowers</title>
+    <style>
+        body {
+            background-image: url('https://images.unsplash.com/photo-1520216863077-b2d2574a14fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080'); /* Fondo con una imagen */
+            background-size: cover; /* Cubrir toda la pantalla */
+            text-align: center; /* Centrar el texto */
+            color: #fff; /* Color del texto general */
+            font-family: 'Arial', sans-serif; /* Fuente más elegante */
+        }
+        .greetings span {
+            color: #ffeb3b; /* Color amarillo para el saludo */
+            font-size: 48px; /* Tamaño de fuente más grande */
+            animation: bounce 1s infinite; /* Animación de rebote */
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+        .description span {
+            color: #ffffff; /* Color blanco para la descripción */
+            font-size: 24px; /* Tamaño de fuente */
+            display: block; /* Para que se muestre en una nueva línea */
+            margin-top: 10px; /* Espacio entre el saludo y la descripción */
+        }
+        .button {
+            margin-top: 20px; /* Espacio arriba del botón */
+        }
+        .botones a {
+            color: #ffffff; /* Color del texto del enlace */
+            text-decoration: none; /* Sin subrayado */
+            padding: 10px 20px; /* Espaciado alrededor del texto del botón */
+            background-color: #ff4081; /* Color de fondo del botón */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s; /* Transición suave al cambiar de color */
+        }
+        .botones a:hover {
+            background-color: #ff69b4; /* Color al pasar el ratón */
+        }
+        .hearts {
+            font-size: 36px; /* Tamaño de los corazones */
+            color: #ff1493; /* Color de los corazones */
+            margin: 20px 0; /* Espacio alrededor de los corazones */
+            animation: heartbeat 1.5s infinite; /* Animación de latido */
+        }
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="greetings">
+        <span>M</span>
+        <span>A</span>
+        <span>J</span>
+        <span>I</span>
+        <span>T</span>
+        <span>O</span>
+    </div>
+    <div class="hearts">❤️❤️❤️❤️❤️❤️❤️❤️❤️</div> <!-- Más corazones añadidos -->
+    <div class="description">
+        <span>CON MUCHO CARIÑO PARA TI MI REINA</span>
+    </div>
+    <div class="button">
+        <button class="botones">
+            <a href="flower.html">TOCA AQUÍ BEBE</a>
+        </button>
+    </div>
+</body>
+
+</html>
